@@ -1,0 +1,44 @@
+{
+    "type": "bubble",
+    "direction": "ltr",
+    "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+            {
+                "type": "text",
+                "text": "最初はぐー、じゃんけん、",
+                "align": "center"
+            }
+        ]
+    },
+    "footer": {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+            {
+                "type": "button",
+                "action": {
+                    "type": "message",
+                    "label": "ぐー",
+                    "text": "ぐー"
+                }
+            },
+        {
+            "type": "button",
+            "action": {
+                "type": "message",
+                "label": "ちょき",
+                "text": "ちょき"
+            }
+        },
+        {
+            "type": "button",
+            "action": {
+                "type": "message",
+                "label": "ぱー",
+                "text": "ぱー"
+            }
+        }
+    ]}
+}
