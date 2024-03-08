@@ -1,3 +1,8 @@
 .venv/
 .conf
 __pycache__/
+.vscode/
+ngrok.exe/
+appstart.bat
+env.bat
+samplebotsart.bat
